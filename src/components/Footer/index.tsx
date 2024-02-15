@@ -8,21 +8,67 @@ const Footer = () => (
       <FooterSection>
         <SectionTitle>Categorias</SectionTitle>
         <Links>
-          <Link>RPG</Link>
-          <Link>AÇÃO</Link>
-          <Link>AVENTURA</Link>
-          <Link>ESPORTES</Link>
-          <Link>SIMULAÇÃO</Link>
-          <Link>ESTRATEGIA</Link>
-          <Link>FPS</Link>
+          <li>
+            <Link
+              title="Clique aqui para acessar jogos de RPG"
+              to="/categories#rpg"
+            >
+              RPG
+            </Link>
+          </li>
+          <li>
+            <Link
+              title="Clique aqui para acessar jogos de ação"
+              to="/categories#action"
+            >
+              Ação
+            </Link>
+          </li>
+          <li>
+            <Link
+              title="Clique aqui para acessar jogos de esportes"
+              to="/categories#sports"
+            >
+              Esportes
+            </Link>
+          </li>
+          <li>
+            <Link
+              title="Clique aqui para acessar jogos de simulação"
+              to="/categories#simulation"
+            >
+              Simulação
+            </Link>
+          </li>
+          <li>
+            <Link
+              title="Clique aqui para acessar jogos de luta"
+              to="/categories#fight"
+            >
+              Luta
+            </Link>
+          </li>
         </Links>
       </FooterSection>
       <FooterSection>
         <SectionTitle>Acesso rápido</SectionTitle>
         <Links>
-          <Link>NOVIDADES</Link>
-          <Link>PROMOCOES</Link>
-          <Link>EM BREVE</Link>
+          <li>
+            <Link
+              title="Clique aqui para acessar a seção de promoções"
+              to="/#on-sale"
+            >
+              PROMOCÕES
+            </Link>
+          </li>
+          <li>
+            <Link
+              title="Clique aqui para acessar a seção de em breve"
+              to="/#coming-soon"
+            >
+              EM BREVE
+            </Link>
+          </li>
         </Links>
       </FooterSection>
       <p>{currentYear} - &copy; E-PLAY todos os direitos reservados</p>
